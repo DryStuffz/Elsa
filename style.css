@@ -1,0 +1,51 @@
+
+
+
+@font-face {
+    font-family: 'january';
+    src: url('fonts/CuteEgg-nR9VO.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'october';
+    src: url('fonts/SpookySkeleton-L3Rnn.ttf') format('truetype');
+}
+
+
+
+
+/* Default styles */
+body {
+    position: relative;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+.center {
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size:  23px;
+}
+
+
+
+
+/* January styles */
+body.january {
+    background-color: #ff4814; /* Light Sky Blue */
+    color: #fff; /* White */
+    font-family: 'october', 'Courier New', Courier, monospace;
+}
+
+/* February styles */
+body.february {
+    background-color: #FF69B4; /* Hot Pink */
+    color: #fff;
+}
+
+/* Add styles for other months as needed */
+/* ... */
