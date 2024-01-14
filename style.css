@@ -1,6 +1,4 @@
 
-
-
 @font-face {
     font-family: 'january';
     src: url('fonts/CuteEgg-nR9VO.ttf') format('truetype');
@@ -11,6 +9,10 @@
     src: url('fonts/SpookySkeleton-L3Rnn.ttf') format('truetype');
 }
 
+svg {
+    width: 150px; /* Set your desired width */
+    height: auto; /* Maintain aspect ratio based on width */
+}
 
 
 
@@ -31,14 +33,10 @@ body {
     font-size:  23px;
 }
 
-
-
-
 /* January styles */
 body.january {
-    background-color: #ff4814; /* Light Sky Blue */
-    color: #fff; /* White */
-    font-family: 'october', 'Courier New', Courier, monospace;
+    background-color: #FF69B4; /* Hot Pink */
+    color: #fff;
 }
 
 /* February styles */
@@ -47,5 +45,65 @@ body.february {
     color: #fff;
 }
 
-/* Add styles for other months as needed */
-/* ... */
+/* February styles */
+body.march {
+    background-color: #FF69B4; /* Hot Pink */
+    color: #fff;
+}
+
+/* February styles */
+body.april {
+    background-color: #FF69B4; /* Hot Pink */
+    color: #fff;
+}
+
+/* February styles */
+body.may {
+    background-color: #FF69B4; /* Hot Pink */
+    color: #fff;
+}
+
+/* February styles */
+body.june {
+    background-color: #FF69B4; /* Hot Pink */
+    color: #fff;
+}
+
+/* july styles */
+body.july {
+    background-color: #FF69B4; /* Hot Pink */
+    color: #fff;
+}
+
+/* august styles */
+body.august {
+    background-color: #FF69B4; /* Hot Pink */
+    color: #fff;
+}
+
+/* september styles */
+body.september {
+    background-color: #FF69B4; /* Hot Pink */
+    color: #fff;
+}
+
+/* october styles */
+body.october {
+    background-color: #ff4814; /* Light Sky Blue */
+    color: black; /* White */
+    font-family: 'october', 'Courier New', Courier, monospace;
+}
+
+/* november styles */
+body.november {
+    background-color: #FF69B4; /* Hot Pink */
+    color: #fff;
+}
+
+/* december styles */
+body.december {
+    background-color: #FF69B4; /* Hot Pink */
+    color: #fff;
+}
+
+
