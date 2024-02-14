@@ -9,10 +9,15 @@
     src: url('fonts/SpookySkeleton-L3Rnn.ttf') format('truetype');
 }
 
-svg {
-    width: 150px; /* Set your desired width */
-    height: auto; /* Maintain aspect ratio based on width */
+@font-face {
+    font-family: 'february';
+    src: url('fonts/feb.ttf') format('truetype');
 }
+
+/* svg {
+    width: 150px; 
+    height: auto; 
+} */
 
 
 
@@ -35,14 +40,16 @@ body {
 
 /* January styles */
 body.january {
-    background-color: #FF69B4; /* Hot Pink */
-    color: #fff;
+    background-color: #abdbe3; /* Hot Pink */
+    color: black;
+    font-family: 'january', 'Courier New', Courier, monospace;
 }
 
 /* February styles */
 body.february {
-    background-color: #FF69B4; /* Hot Pink */
-    color: #fff;
+    background-color: #76D2FF; /* Hot Pink */
+    color: #750000;
+    font-family: 'february', 'Courier New', Courier, monospace;
 }
 
 /* February styles */
@@ -61,6 +68,7 @@ body.april {
 body.may {
     background-color: #FF69B4; /* Hot Pink */
     color: #fff;
+    
 }
 
 /* February styles */
