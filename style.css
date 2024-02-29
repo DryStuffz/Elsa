@@ -14,6 +14,10 @@
     src: url('fonts/feb.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'march';
+    src: url('fonts/march.ttf') format('opentype');
+}
 /* svg {
     width: 150px; 
     height: auto; 
@@ -54,8 +58,9 @@ body.february {
 
 /* February styles */
 body.march {
-    background-color: #FF69B4; /* Hot Pink */
-    color: #fff;
+    background-color: #205c5c; /* Hot Pink */
+    color: #eaf8a8;
+    font-family: 'march', 'Courier New', Courier, monospace;
 }
 
 /* February styles */
