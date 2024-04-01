@@ -16,7 +16,12 @@
 
 @font-face {
     font-family: 'march';
-    src: url('fonts/march.ttf') format('opentype');
+    src: url('fonts/march.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'april';
+    src: url('fonts/april.ttf') format('truetype');
 }
 /* svg {
     width: 150px; 
@@ -65,8 +70,9 @@ body.march {
 
 /* February styles */
 body.april {
-    background-color: #FF69B4; /* Hot Pink */
-    color: #fff;
+    background-color: #BAE9F0; /* Hot Pink */
+    color: #C1BA95;
+    font-family: 'april', 'Courier New', Courier, monospace;
 }
 
 /* February styles */
