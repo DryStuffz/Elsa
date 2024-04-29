@@ -23,6 +23,12 @@
     font-family: 'april';
     src: url('fonts/april.ttf') format('truetype');
 }
+
+@font-face {
+    font-family: 'may';
+    src: url('fonts/may.ttf') format('truetype');
+}
+
 /* svg {
     width: 150px; 
     height: auto; 
@@ -77,8 +83,9 @@ body.april {
 
 /* February styles */
 body.may {
-    background-color: #FF69B4; /* Hot Pink */
-    color: #fff;
+    background-color: #fc6c85; /* Hot Pink */
+    color: #BAE9F0;
+    font-family: 'may', 'Courier New', Courier, monospace;
     
 }
 
