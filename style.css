@@ -10,6 +10,12 @@
 }
 
 @font-face {
+    font-family: 'june';
+    src: url('fonts/june.ttf') format('truetype');
+}
+
+
+@font-face {
     font-family: 'february';
     src: url('fonts/feb.ttf') format('truetype');
 }
@@ -91,8 +97,9 @@ body.may {
 
 /* February styles */
 body.june {
-    background-color: #FF69B4; /* Hot Pink */
-    color: #fff;
+    background-color: #76D2FF; /* Hot Pink */
+    color: #205c5c;
+    font-family: 'june', 'Courier New', Courier, monospace;
 }
 
 /* july styles */
