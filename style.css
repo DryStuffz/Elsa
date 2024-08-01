@@ -40,6 +40,11 @@
     src: url('fonts/july.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'august';
+    src: url('fonts/august.ttf') format('truetype');
+}
+
 /* svg {
     width: 150px; 
     height: auto; 
@@ -116,8 +121,10 @@ body.july {
 
 /* august styles */
 body.august {
-    background-color: #FF69B4; /* Hot Pink */
-    color: #fff;
+    background-color: #2B287B; /* Hot Pink */
+    color: #E1BE99;
+    font-family: 'august', 'Courier New', Courier, monospace;
+
 }
 
 /* september styles */
